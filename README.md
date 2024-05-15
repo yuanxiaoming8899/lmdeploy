@@ -1,229 +1,243 @@
-<div align="center">
-  <img src="docs/en/_static/image/lmdeploy-logo.svg" width="450"/>
-
-[![PyPI](https://img.shields.io/pypi/v/lmdeploy)](https://pypi.org/project/lmdeploy)
-![PyPI - Downloads](https://img.shields.io/pypi/dm/lmdeploy)
-[![license](https://img.shields.io/github/license/InternLM/lmdeploy.svg)](https://github.com/InternLM/lmdeploy/tree/main/LICENSE)
-[![issue resolution](https://img.shields.io/github/issues-closed-raw/InternLM/lmdeploy)](https://github.com/InternLM/lmdeploy/issues)
-[![open issues](https://img.shields.io/github/issues-raw/InternLM/lmdeploy)](https://github.com/InternLM/lmdeploy/issues)
-
-[📘Documentation](https://lmdeploy.readthedocs.io/en/latest/) |
-[🛠️Quick Start](https://lmdeploy.readthedocs.io/en/latest/get_started.html) |
-[🤔Reporting Issues](https://github.com/InternLM/lmdeploy/issues/new/choose)
-
-English | [简体中文](README_zh-CN.md)
-
-👋 join us on [![Static Badge](https://img.shields.io/badge/-grey?style=social&logo=wechat&label=WeChat)](https://cdn.vansin.top/internlm/lmdeploy.jpg)
-[![Static Badge](https://img.shields.io/badge/-grey?style=social&logo=twitter&label=Twitter)](https://twitter.com/intern_lm)
-[![Static Badge](https://img.shields.io/badge/-grey?style=social&logo=discord&label=Discord)](https://discord.gg/xa29JuW87d)
-
+<div class="Box-sc-g0xbh4-0 bJMeLZ js-snippet-clipboard-copy-unpositioned" data-hpc="true"><article class="markdown-body entry-content container-lg" itemprop="text"><div align="center" dir="auto">
+  <a target="_blank" rel="noopener noreferrer" href="/InternLM/lmdeploy/blob/main/docs/en/_static/image/lmdeploy-logo.svg"><img src="/InternLM/lmdeploy/raw/main/docs/en/_static/image/lmdeploy-logo.svg" width="450" style="max-width: 100%;"></a>
+<p dir="auto"><a href="https://pypi.org/project/lmdeploy" rel="nofollow"><img src="https://camo.githubusercontent.com/9a0c0a716ac05f638b73ecc45796d323eff8046f25f597d0352c34386a3b8003/68747470733a2f2f696d672e736869656c64732e696f2f707970692f762f6c6d6465706c6f79" alt="皮伊" data-canonical-src="https://img.shields.io/pypi/v/lmdeploy" style="max-width: 100%;"></a>
+<a target="_blank" rel="noopener noreferrer nofollow" href="https://camo.githubusercontent.com/039a974b1b2b2439221e1f4d7c249c3bdc8d6edba80fcd995d6625d68c809a0b/68747470733a2f2f696d672e736869656c64732e696f2f707970692f646d2f6c6d6465706c6f79"><img src="https://camo.githubusercontent.com/039a974b1b2b2439221e1f4d7c249c3bdc8d6edba80fcd995d6625d68c809a0b/68747470733a2f2f696d672e736869656c64732e696f2f707970692f646d2f6c6d6465706c6f79" alt="PyPI - 下载" data-canonical-src="https://img.shields.io/pypi/dm/lmdeploy" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lmdeploy/tree/main/LICENSE"><img src="https://camo.githubusercontent.com/f5150558d37a0e75f47ab997968aadb649a14c6b455a9c95264b5da30565bcff/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6c6963656e73652f496e7465726e4c4d2f6c6d6465706c6f792e737667" alt="执照" data-canonical-src="https://img.shields.io/github/license/InternLM/lmdeploy.svg" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lmdeploy/issues"><img src="https://camo.githubusercontent.com/64f946d2c8ef97d4a55bb614d21fc06c64c3efa8662d0f0e08ba90e3d2371dc2/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d636c6f7365642d7261772f496e7465726e4c4d2f6c6d6465706c6f79" alt="问题解决" data-canonical-src="https://img.shields.io/github/issues-closed-raw/InternLM/lmdeploy" style="max-width: 100%;"></a>
+<a href="https://github.com/InternLM/lmdeploy/issues"><img src="https://camo.githubusercontent.com/55d1ec2a17e0749039931ee7a17e7e581bbd6e37bf397274ede4e0dff56254bd/68747470733a2f2f696d672e736869656c64732e696f2f6769746875622f6973737565732d7261772f496e7465726e4c4d2f6c6d6465706c6f79" alt="开放式问题" data-canonical-src="https://img.shields.io/github/issues-raw/InternLM/lmdeploy" style="max-width: 100%;"></a></p>
+<p dir="auto"><a href="https://lmdeploy.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">📘文档</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|
+ </font></font><a href="https://lmdeploy.readthedocs.io/en/latest/get_started.html" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🛠️快速入门</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">|
+ </font></font><a href="https://github.com/InternLM/lmdeploy/issues/new/choose"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">🤔报告问题</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">英语 |</font></font><a href="/InternLM/lmdeploy/blob/main/README_zh-CN.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">简体中文</font></font></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">👋加入我们</font></font><a href="https://cdn.vansin.top/internlm/lmdeploy.jpg" rel="nofollow"><img src="https://camo.githubusercontent.com/5ec388923347b5f3421073343a64da34334742d1fe65a3ed59d3da3fa96341fc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d677265793f7374796c653d736f6369616c266c6f676f3d776563686174266c6162656c3d576543686174" alt="静态徽章" data-canonical-src="https://img.shields.io/badge/-grey?style=social&amp;logo=wechat&amp;label=WeChat" style="max-width: 100%;"></a>
+<a href="https://twitter.com/intern_lm" rel="nofollow"><img src="https://camo.githubusercontent.com/9fb5b9c09736b5d1bda6237930c99715ecf3d2416488277a2c38d27e72fa086a/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d677265793f7374796c653d736f6369616c266c6f676f3d74776974746572266c6162656c3d54776974746572" alt="静态徽章" data-canonical-src="https://img.shields.io/badge/-grey?style=social&amp;logo=twitter&amp;label=Twitter" style="max-width: 100%;"></a>
+<a href="https://discord.gg/xa29JuW87d" rel="nofollow"><img src="https://camo.githubusercontent.com/e0e522ff92bd16c1ce1b9512ce01cd62d650faa6aab9eb4d98828df86d16f1cc/68747470733a2f2f696d672e736869656c64732e696f2f62616467652f2d677265793f7374796c653d736f6369616c266c6f676f3d646973636f7264266c6162656c3d446973636f7264" alt="静态徽章" data-canonical-src="https://img.shields.io/badge/-grey?style=social&amp;logo=discord&amp;label=Discord" style="max-width: 100%;"></a></p>
 </div>
-
-______________________________________________________________________
-
-## Latest News 🎉
-
-<details open>
-<summary><b>2024</b></summary>
-
-- \[2024/04\] Support Llama3 and more VLMs, such as InternVL v1.1, v1.2, MiniGemini, InternLMXComposer2.
-- \[2024/04\] TurboMind adds online int8/int4 KV cache quantization and inference for all supported devices. Refer [here](docs/en/quantization/kv_quant.md) for detailed guide
-- \[2024/04\] TurboMind latest upgrade boosts GQA, rocketing the [internlm2-20b](https://huggingface.co/internlm/internlm2-20b) model inference to 16+ RPS, about 1.8x faster than vLLM.
-- \[2024/04\] Support Qwen1.5-MOE and dbrx.
-- \[2024/03\] Support DeepSeek-VL offline inference pipeline and serving.
-- \[2024/03\] Support VLM offline inference pipeline and serving.
-- \[2024/02\] Support Qwen 1.5, Gemma, Mistral, Mixtral, Deepseek-MOE and so on.
-- \[2024/01\] [OpenAOE](https://github.com/InternLM/OpenAOE) seamless integration with [LMDeploy Serving Service](./docs/en/serving/api_server.md).
-- \[2024/01\] Support for multi-model, multi-machine, multi-card inference services. For usage instructions, please refer to [here](./docs/en/serving/proxy_server.md)
-- \[2024/01\] Support [PyTorch inference engine](./docs/en/inference/pytorch.md), developed entirely in Python, helping to lower the barriers for developers and enable  rapid experimentation with new features and technologies.
-
+<hr>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">最新消息🎉</font></font></h2><a id="user-content-latest-news-" class="anchor" aria-label="永久链接：最新消息🎉" href="#latest-news-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<details open="">
+<summary><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2024年</font></font></b></summary>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/04] 支持Llama3及更多VLM，如InternVL v1.1、v1.2、MiniGemini、InternLMXComposer2。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/04] TurboMind 为所有支持的设备添加了在线 int8/int4 KV 缓存量化和推理。请参阅</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/quantization/kv_quant.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">获取详细指南</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/04] TurboMind 最新升级提升了 GQA，将</font></font><a href="https://huggingface.co/internlm/internlm2-20b" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">internlm2-20b</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">模型推理速度提升至 16+ RPS，比 vLLM 快约 1.8 倍。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/04] 支持Qwen1.5-MOE和dbrx。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/03] 支持DeepSeek-VL离线推理管道和服务。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/03] 支持VLM离线推理管道和服务。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/02] 支持Qwen 1.5、Gemma、Mistral、Mixtral、Deepseek-MOE等。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/01] </font></font><a href="https://github.com/InternLM/OpenAOE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">OpenAOE与</font></font></a><font style="vertical-align: inherit;"></font><a href="/InternLM/lmdeploy/blob/main/docs/en/serving/api_server.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LMDeploy 服务服务</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">无缝集成</font><font style="vertical-align: inherit;">。</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/01] 支持多模型、多机器、多卡推理服务。使用说明请参考</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/serving/proxy_server.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">这里</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2024/01] 支持</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/pytorch.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyTorch推理引擎</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，完全使用Python开发，有助于降低开发者的门槛，实现新功能和新技术的快速实验。</font></font></li>
+</ul>
 </details>
-
-<details close>
-<summary><b>2023</b></summary>
-
-- \[2023/12\] Turbomind supports multimodal input. [Gradio Demo](./examples/vl/README.md)
-- \[2023/11\] Turbomind supports loading hf model directly. Click [here](docs/en/inference/load_hf.md) for details.
-- \[2023/11\] TurboMind major upgrades, including: Paged Attention, faster attention kernels without sequence length limitation, 2x faster KV8 kernels, Split-K decoding (Flash Decoding), and W4A16 inference for sm_75
-- \[2023/09\] TurboMind supports Qwen-14B
-- \[2023/09\] TurboMind supports InternLM-20B
-- \[2023/09\] TurboMind supports all features of Code Llama: code completion, infilling, chat / instruct, and python specialist. Click [here](./docs/en/supported_models/codellama.md) for deployment guide
-- \[2023/09\] TurboMind supports Baichuan2-7B
-- \[2023/08\] TurboMind supports flash-attention2.
-- \[2023/08\] TurboMind supports Qwen-7B, dynamic NTK-RoPE scaling and dynamic logN scaling
-- \[2023/08\] TurboMind supports Windows (tp=1)
-- \[2023/08\] TurboMind supports 4-bit inference, 2.4x faster than FP16, the fastest open-source implementation. Check [this](docs/en/quantization/w4a16.md) guide for detailed info
-- \[2023/08\] LMDeploy has launched on the [HuggingFace Hub](https://huggingface.co/lmdeploy), providing ready-to-use 4-bit models.
-- \[2023/08\] LMDeploy supports 4-bit quantization using the [AWQ](https://arxiv.org/abs/2306.00978) algorithm.
-- \[2023/07\] TurboMind supports Llama-2 70B with GQA.
-- \[2023/07\] TurboMind supports Llama-2 7B/13B.
-- \[2023/07\] TurboMind supports tensor-parallel inference of InternLM.
-
+<details>
+<summary><b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2023年</font></font></b></summary>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2023/12] Turbomind 支持多模式输入。</font></font><a href="/InternLM/lmdeploy/blob/main/examples/vl/README.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">调音台演示</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">[2023/11] Turbomind 支持直接加载 hf 模型。点击</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/load_hf.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解详情。</font></font></li>
+<li>[2023/11] TurboMind major upgrades, including: Paged Attention, faster attention kernels without sequence length limitation, 2x faster KV8 kernels, Split-K decoding (Flash Decoding), and W4A16 inference for sm_75</li>
+<li>[2023/09] TurboMind supports Qwen-14B</li>
+<li>[2023/09] TurboMind supports InternLM-20B</li>
+<li>[2023/09] TurboMind supports all features of Code Llama: code completion, infilling, chat / instruct, and python specialist. Click <a href="/InternLM/lmdeploy/blob/main/docs/en/supported_models/codellama.md">here</a> for deployment guide</li>
+<li>[2023/09] TurboMind supports Baichuan2-7B</li>
+<li>[2023/08] TurboMind supports flash-attention2.</li>
+<li>[2023/08] TurboMind supports Qwen-7B, dynamic NTK-RoPE scaling and dynamic logN scaling</li>
+<li>[2023/08] TurboMind supports Windows (tp=1)</li>
+<li>[2023/08] TurboMind supports 4-bit inference, 2.4x faster than FP16, the fastest open-source implementation. Check <a href="/InternLM/lmdeploy/blob/main/docs/en/quantization/w4a16.md">this</a> guide for detailed info</li>
+<li>[2023/08] LMDeploy has launched on the <a href="https://huggingface.co/lmdeploy" rel="nofollow">HuggingFace Hub</a>, providing ready-to-use 4-bit models.</li>
+<li>[2023/08] LMDeploy supports 4-bit quantization using the <a href="https://arxiv.org/abs/2306.00978" rel="nofollow">AWQ</a> algorithm.</li>
+<li>[2023/07] TurboMind supports Llama-2 70B with GQA.</li>
+<li>[2023/07] TurboMind supports Llama-2 7B/13B.</li>
+<li>[2023/07] TurboMind supports tensor-parallel inference of InternLM.</li>
+</ul>
 </details>
-
-______________________________________________________________________
-
-# Introduction
-
-LMDeploy is a toolkit for compressing, deploying, and serving LLM, developed by the [MMRazor](https://github.com/open-mmlab/mmrazor) and [MMDeploy](https://github.com/open-mmlab/mmdeploy) teams. It has the following core features:
-
-- **Efficient Inference**: LMDeploy delivers up to 1.8x higher request throughput than vLLM, by introducing key features like persistent batch(a.k.a. continuous batching), blocked KV cache, dynamic split&fuse, tensor parallelism, high-performance CUDA kernels and so on.
-
-- **Effective Quantization**: LMDeploy supports weight-only and k/v quantization, and the 4-bit inference performance is 2.4x higher than FP16. The quantization quality has been confirmed via OpenCompass evaluation.
-
-- **Effortless Distribution Server**: Leveraging the request distribution service, LMDeploy facilitates an easy and efficient deployment of multi-model services across multiple machines and cards.
-
-- **Interactive Inference Mode**: By caching the k/v of attention during multi-round dialogue processes, the engine remembers dialogue history, thus avoiding repetitive processing of historical sessions.
-
-# Performance
-
-![v0 1 0-benchmark](https://github.com/InternLM/lmdeploy/assets/4560679/8e455cf1-a792-4fa8-91a2-75df96a2a5ba)
-
-For detailed inference benchmarks in more devices and more settings, please refer to the following link:
-
-- [A100](./docs/en/benchmark/a100_fp16.md)
-- V100
-- 4090
-- 3090
-- 2080
-
-# Supported Models
-
+<hr>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">介绍</font></font></h1><a id="user-content-introduction" class="anchor" aria-label="永久链接：简介" href="#introduction"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LMDeploy 是一个用于压缩、部署和服务 LLM 的工具包，由</font></font><a href="https://github.com/open-mmlab/mmrazor"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MMRazor</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font><a href="https://github.com/open-mmlab/mmdeploy"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">MMDeploy</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">团队开发。它具有以下核心特点：</font></font></p>
+<ul dir="auto">
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高效推理</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：LMDeploy 通过引入持久批处理（又称连续批处理）、阻塞 KV 缓存、动态拆分和融合、张量并行、高性能 CUDA 内核等关键功能，提供比 vLLM 高出 1.8 倍的请求吞吐量。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有效量化</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：LMDeploy支持仅权重和k/v量化，4位推理性能比FP16高2.4倍。量化质量已通过 OpenCompass 评估得到确认。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">轻松的分发服务器</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：利用请求分发服务，LMDeploy 有助于跨多台机器和卡轻松高效地部署多模型服务。</font></font></p>
+</li>
+<li>
+<p dir="auto"><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">交互推理模式</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：通过缓存多轮对话过程中注意力的k/v，引擎记住对话历史，从而避免对历史会话的重复处理。</font></font></p>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">表现</font></font></h1><a id="user-content-performance" class="anchor" aria-label="永久链接：性能" href="#performance"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><a target="_blank" rel="noopener noreferrer" href="https://private-user-images.githubusercontent.com/4560679/293825277-8e455cf1-a792-4fa8-91a2-75df96a2a5ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3NTUyNjAsIm5iZiI6MTcxNTc1NDk2MCwicGF0aCI6Ii80NTYwNjc5LzI5MzgyNTI3Ny04ZTQ1NWNmMS1hNzkyLTRmYTgtOTFhMi03NWRmOTZhMmE1YmEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTVUMDYzNjAwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjkyM2RkODQ5ZTUyMTI5MzU0ZDg1YzA1YmRiMDVkYzE5YjA2Nzg5OTIxMTRlMGI1NDM0MjhhYzBhYzc5ZDM2MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.AhikuruIcibXjzU3_I4eN9ZA8WPVcjec3-kgptyhEBg"><img src="https://private-user-images.githubusercontent.com/4560679/293825277-8e455cf1-a792-4fa8-91a2-75df96a2a5ba.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MTU3NTUyNjAsIm5iZiI6MTcxNTc1NDk2MCwicGF0aCI6Ii80NTYwNjc5LzI5MzgyNTI3Ny04ZTQ1NWNmMS1hNzkyLTRmYTgtOTFhMi03NWRmOTZhMmE1YmEucG5nP1gtQW16LUFsZ29yaXRobT1BV1M0LUhNQUMtU0hBMjU2JlgtQW16LUNyZWRlbnRpYWw9QUtJQVZDT0RZTFNBNTNQUUs0WkElMkYyMDI0MDUxNSUyRnVzLWVhc3QtMSUyRnMzJTJGYXdzNF9yZXF1ZXN0JlgtQW16LURhdGU9MjAyNDA1MTVUMDYzNjAwWiZYLUFtei1FeHBpcmVzPTMwMCZYLUFtei1TaWduYXR1cmU9NjkyM2RkODQ5ZTUyMTI5MzU0ZDg1YzA1YmRiMDVkYzE5YjA2Nzg5OTIxMTRlMGI1NDM0MjhhYzBhYzc5ZDM2MiZYLUFtei1TaWduZWRIZWFkZXJzPWhvc3QmYWN0b3JfaWQ9MCZrZXlfaWQ9MCZyZXBvX2lkPTAifQ.AhikuruIcibXjzU3_I4eN9ZA8WPVcjec3-kgptyhEBg" alt="v0 1 0-基准" style="max-width: 100%;"></a></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更多设备、更多设置下的详细推理基准，请参考以下链接：</font></font></p>
+<ul dir="auto">
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/benchmark/a100_fp16.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">A100</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">V100</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">4090</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">3090</font></font></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">2080</font></font></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">支持型号</font></font></h1><a id="user-content-supported-models" class="anchor" aria-label="永久链接：支持的型号" href="#supported-models"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
 <table>
 <tbody>
 <tr align="center" valign="middle">
 <td>
-  <b>LLMs</b>
+  <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士</font></font></b>
 </td>
 <td>
-  <b>VLMs</b>
+  <b><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VLM</font></font></b>
 </td>
-<tr valign="top">
+</tr><tr valign="top">
 <td align="left" valign="top">
-<ul>
-  <li>Llama (7B - 65B)</li>
-  <li>Llama2 (7B - 70B)</li>
-  <li>Llama3 (8B, 70B)</li>
-  <li>InternLM (7B - 20B)</li>
-  <li>InternLM2 (7B - 20B)</li>
-  <li>QWen (1.8B - 72B)</li>
-  <li>QWen1.5 (0.5B - 110B)</li>
-  <li>QWen1.5 - MoE (0.5B - 72B)</li>
-  <li>Baichuan (7B)</li>
-  <li>Baichuan2 (7B-13B)</li>
-  <li>Code Llama (7B - 34B)</li>
-  <li>ChatGLM2 (6B)</li>
-  <li>Falcon (7B - 180B)</li>
-  <li>YI (6B-34B)</li>
-  <li>Mistral (7B)</li>
-  <li>DeepSeek-MoE (16B)</li>
-  <li>Mixtral (8x7B, 8x22B)</li>
-  <li>Gemma (2B - 7B)</li>
-  <li>Dbrx (132B)</li>
-  <li>Phi-3-mini (3.8B)</li>
+<ul dir="auto">
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">羊驼 (7B - 65B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">骆驼2 (7B - 70B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">骆驼3 (8B, 70B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实习生LM (7B - 20B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实习生LM2 (7B - 20B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Q文 (1.8B - 72B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QWen1.5 (0.5B - 110B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QWen1.5 - 教育部 (0.5B - 72B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">百川（7B）</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">百川2 (7B-13B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">代码骆驼 (7B - 34B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">聊天GLM2 (6B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">猎鹰 (7B - 180B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">彝族 (6B-34B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">米斯特拉尔 (7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DeepSeek-教育部 (16B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">混合（8x7B、8x22B）</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">杰玛 (2B - 7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DBRX (132B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Phi-3-迷你 (3.8B)</font></font></li>
 </ul>
 </td>
 <td>
-<ul>
-  <li>LLaVA(1.5,1.6) (7B-34B)</li>
-  <li>InternLM-XComposer (7B)</li>
-  <li>InternLM-XComposer2 (7B, 4khd-7B)</li>
-  <li>QWen-VL (7B)</li>
-  <li>DeepSeek-VL (7B)</li>
-  <li>InternVL-Chat (v1.1-v1.5)</li>
-  <li>MiniGeminiLlama (7B)</li>
-  <li>StarCoder2 (3B - 15B)</li>
+<ul dir="auto">
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLaVA(1.5,1.6) (7B-34B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实习生LM-XComposer (7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">InternLM-XComposer2（7B、4khd-7B）</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">QWen-VL (7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DeepSeek-VL (7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">实习生VL-聊天 (v1.1-v1.5)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">迷你双子羊驼 (7B)</font></font></li>
+  <li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">StarCoder2 (3B - 15B)</font></font></li>
 </ul>
 </td>
 </tr>
 </tbody>
 </table>
-
-LMDeploy has developed two inference engines - [TurboMind](./docs/en/inference/turbomind.md) and [PyTorch](./docs/en/inference/pytorch.md), each with a different focus. The former strives for ultimate optimization of inference performance, while the latter, developed purely in Python, aims to decrease the barriers for developers.
-
-They differ in the types of supported models and the inference data type. Please refer to [this table](./docs/en/supported_models/supported_models.md) for each engine's capability and choose the proper one that best fits your actual needs.
-
-# Quick Start [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Dh-YlSwg78ZO3AlleO441NF_QP2shs95#scrollTo=YALmXnwCG1pQ)
-
-## Installation
-
-Install lmdeploy with pip ( python 3.8+) or [from source](./docs/en/build.md)
-
-```shell
-pip install lmdeploy
-```
-
-Since v0.3.0, The default prebuilt package is compiled on **CUDA 12**. However, if CUDA 11+ is required, you can install lmdeploy by:
-
-```shell
-export LMDEPLOY_VERSION=0.3.0
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LMDeploy 开发了两种推理引擎——TurboMind</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/turbomind.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">和</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">PyTorch </font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/pytorch.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">，</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">各有不同的侧重点。前者力求推理性能的终极优化，而后者纯粹用Python开发，旨在减少开发者的门槛。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">它们的不同之处在于支持的模型类型和推理数据类型。请参阅</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/supported_models/supported_models.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此表</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解每种发动机的功能，并选择最适合您实际需求的发动机。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">快速开始</font></font><a href="https://colab.research.google.com/drive/1Dh-YlSwg78ZO3AlleO441NF_QP2shs95#scrollTo=YALmXnwCG1pQ" rel="nofollow"><img src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="在 Colab 中打开" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width: 100%;"></a></h1><a id="user-content-quick-start-" class="anchor" aria-label="永久链接：快速入门" href="#quick-start-"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">安装</font></font></h2><a id="user-content-installation" class="anchor" aria-label="永久链接：安装" href="#installation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">使用 pip ( python 3.8+) 或</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/build.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从源安装 lmdeploy</font></font></a></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre>pip install lmdeploy</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="pip install lmdeploy" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<p dir="auto"><font style="vertical-align: inherit;"></font><strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">从 v0.3.0 开始，默认的预构建包在CUDA 12</font></font></strong><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">上编译</font><font style="vertical-align: inherit;">。但是，如果需要 CUDA 11+，您可以通过以下方式安装 lmdeploy：</font></font></p>
+<div class="highlight highlight-source-shell notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">export</span> LMDEPLOY_VERSION=0.3.0
+<span class="pl-k">export</span> PYTHON_VERSION=38
+pip install https://github.com/InternLM/lmdeploy/releases/download/v<span class="pl-smi">${LMDEPLOY_VERSION}</span>/lmdeploy-<span class="pl-smi">${LMDEPLOY_VERSION}</span>+cu118-cp<span class="pl-smi">${PYTHON_VERSION}</span>-cp<span class="pl-smi">${PYTHON_VERSION}</span>-manylinux2014_x86_64.whl --extra-index-url https://download.pytorch.org/whl/cu118</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="export LMDEPLOY_VERSION=0.3.0
 export PYTHON_VERSION=38
-pip install https://github.com/InternLM/lmdeploy/releases/download/v${LMDEPLOY_VERSION}/lmdeploy-${LMDEPLOY_VERSION}+cu118-cp${PYTHON_VERSION}-cp${PYTHON_VERSION}-manylinux2014_x86_64.whl --extra-index-url https://download.pytorch.org/whl/cu118
-```
-
-## Offline Batch Inference
-
-```python
-import lmdeploy
-pipe = lmdeploy.pipeline("internlm/internlm-chat-7b")
-response = pipe(["Hi, pls intro yourself", "Shanghai is"])
-print(response)
-```
-
-> \[!NOTE\]
-> By default, LMDeploy downloads model from HuggingFace. If you would like to use models from ModelScope, please install ModelScope by `pip install modelscope` and set the environment variable:
->
-> `export LMDEPLOY_USE_MODELSCOPE=True`
-
-For more information about inference pipeline, please refer to [here](./docs/en/inference/pipeline.md).
-
-# Tutorials
-
-Please overview [getting_started](./docs/en/get_started.md) section for the basic usage of LMDeploy.
-
-For detailed user guides and advanced guides, please refer to our [tutorials](https://lmdeploy.readthedocs.io/en/latest/):
-
-- User Guide
-  - [LLM Inference pipeline](./docs/en/inference/pipeline.md) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1Dh-YlSwg78ZO3AlleO441NF_QP2shs95#scrollTo=YALmXnwCG1pQ)
-  - [VLM Inference pipeline](./docs/en/inference/vl_pipeline.md) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/drive/1nKLfnPeDA3p-FMNw2NhI-KOpk7-nlNjF?usp=sharing)
-  - [LLM Serving](docs/en/serving/api_server.md)
-  - [VLM Serving](docs/en/serving/api_server_vl.md)
-  - [Quantization](docs/en/quantization)
-- Advance Guide
-  - [Inference Engine - TurboMind](docs/en/inference/turbomind.md)
-  - [Inference Engine - PyTorch](docs/en/inference/pytorch.md)
-  - [Customize chat templates](docs/en/advance/chat_template.md)
-  - [Add a new model](docs/en/advance/pytorch_new_model.md)
-  - gemm tuning
-  - [Long context inference](docs/en/advance/long_context.md)
-  - [Multi-model inference service](docs/en/serving/proxy_server.md)
-
-# Third-party projects
-
-- Deploying LLMs offline on the NVIDIA Jetson platform by LMDeploy: [LMDeploy-Jetson](https://github.com/BestAnHongjun/LMDeploy-Jetson)
-
-# Contributing
-
-We appreciate all contributions to LMDeploy. Please refer to [CONTRIBUTING.md](.github/CONTRIBUTING.md) for the contributing guideline.
-
-# Acknowledgement
-
-- [FasterTransformer](https://github.com/NVIDIA/FasterTransformer)
-- [llm-awq](https://github.com/mit-han-lab/llm-awq)
-- [vLLM](https://github.com/vllm-project/vllm)
-- [DeepSpeed-MII](https://github.com/microsoft/DeepSpeed-MII)
-
-# Citation
-
-```bibtex
-@misc{2023lmdeploy,
+pip install https://github.com/InternLM/lmdeploy/releases/download/v${LMDEPLOY_VERSION}/lmdeploy-${LMDEPLOY_VERSION}+cu118-cp${PYTHON_VERSION}-cp${PYTHON_VERSION}-manylinux2014_x86_64.whl --extra-index-url https://download.pytorch.org/whl/cu118" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h2 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">离线批量推理</font></font></h2><a id="user-content-offline-batch-inference" class="anchor" aria-label="永久链接：离线批量推理" href="#offline-batch-inference"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-source-python notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">import</span> <span class="pl-s1">lmdeploy</span>
+<span class="pl-s1">pipe</span> <span class="pl-c1">=</span> <span class="pl-s1">lmdeploy</span>.<span class="pl-en">pipeline</span>(<span class="pl-s">"internlm/internlm-chat-7b"</span>)
+<span class="pl-s1">response</span> <span class="pl-c1">=</span> <span class="pl-en">pipe</span>([<span class="pl-s">"Hi, pls intro yourself"</span>, <span class="pl-s">"Shanghai is"</span>])
+<span class="pl-en">print</span>(<span class="pl-s1">response</span>)</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="import lmdeploy
+pipe = lmdeploy.pipeline(&quot;internlm/internlm-chat-7b&quot;)
+response = pipe([&quot;Hi, pls intro yourself&quot;, &quot;Shanghai is&quot;])
+print(response)" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-alert markdown-alert-note" dir="auto"><p class="markdown-alert-title" dir="auto"><svg class="octicon octicon-info mr-2" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="M0 8a8 8 0 1 1 16 0A8 8 0 0 1 0 8Zm8-6.5a6.5 6.5 0 1 0 0 13 6.5 6.5 0 0 0 0-13ZM6.5 7.75A.75.75 0 0 1 7.25 7h1a.75.75 0 0 1 .75.75v2.75h.25a.75.75 0 0 1 0 1.5h-2a.75.75 0 0 1 0-1.5h.25v-2h-.25a.75.75 0 0 1-.75-.75ZM8 6a1 1 0 1 1 0-2 1 1 0 0 1 0 2Z"></path></svg><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">笔记</font></font></p><p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">默认情况下，LMDeploy 从 HuggingFace 下载模型。如果您想使用 ModelScope 中的模型，请安装 ModelScope</font></font><code>pip install modelscope</code><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">并设置环境变量：</font></font></p>
+<p dir="auto"><code>export LMDEPLOY_USE_MODELSCOPE=True</code></p>
+</div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关推理管道的更多信息，请参阅</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/pipeline.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">此处</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></h1><a id="user-content-tutorials" class="anchor" aria-label="永久链接：教程" href="#tutorials"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">请概述</font></font><a href="/InternLM/lmdeploy/blob/main/docs/en/get_started.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">getting_started</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">部分以了解 LMDeploy 的基本用法。</font></font></p>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">有关详细的用户指南和高级指南，请参阅我们的</font></font><a href="https://lmdeploy.readthedocs.io/en/latest/" rel="nofollow"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">教程</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">：</font></font></p>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">用户指南
+</font></font><ul dir="auto">
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/pipeline.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLM 推理流程</font></font></a> <a href="https://colab.research.google.com/drive/1Dh-YlSwg78ZO3AlleO441NF_QP2shs95#scrollTo=YALmXnwCG1pQ" rel="nofollow"><img src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="在 Colab 中打开" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width: 100%;"></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/vl_pipeline.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VLM 推理管道</font></font></a> <a href="https://colab.research.google.com/drive/1nKLfnPeDA3p-FMNw2NhI-KOpk7-nlNjF?usp=sharing" rel="nofollow"><img src="https://camo.githubusercontent.com/f5e0d0538a9c2972b5d413e0ace04cecd8efd828d133133933dfffec282a4e1b/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667" alt="在 Colab 中打开" data-canonical-src="https://colab.research.google.com/assets/colab-badge.svg" style="max-width: 100%;"></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/serving/api_server.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士服务</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/serving/api_server_vl.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">VLM 服务</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/quantization"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">量化</font></font></a></li>
+</ul>
+</li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">高级指南
+</font></font><ul dir="auto">
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/turbomind.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推理引擎 - TurboMind</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/inference/pytorch.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">推理引擎 - PyTorch</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/advance/chat_template.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">自定义聊天模板</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/advance/pytorch_new_model.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">添加新模型</font></font></a></li>
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">宝石调整</font></font></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/advance/long_context.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">长上下文推理</font></font></a></li>
+<li><a href="/InternLM/lmdeploy/blob/main/docs/en/serving/proxy_server.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">多模型推理服务</font></font></a></li>
+</ul>
+</li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">第三方项目</font></font></h1><a id="user-content-third-party-projects" class="anchor" aria-label="永久链接：第三方项目" href="#third-party-projects"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">通过 LMDeploy 在 NVIDIA Jetson 平台上离线部署 LLM：</font></font><a href="https://github.com/BestAnHongjun/LMDeploy-Jetson"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LMDeploy-Jetson</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">贡献</font></font></h1><a id="user-content-contributing" class="anchor" aria-label="永久链接：贡献" href="#contributing"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">我们感谢对 LMDeploy 的所有贡献。请参阅</font></font><a href="/InternLM/lmdeploy/blob/main/.github/CONTRIBUTING.md"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">CONTRIBUTING.md</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">了解贡献指南。</font></font></p>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">致谢</font></font></h1><a id="user-content-acknowledgement" class="anchor" aria-label="永久链接：致谢" href="#acknowledgement"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<ul dir="auto">
+<li><a href="https://github.com/NVIDIA/FasterTransformer"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">更快的变压器</font></font></a></li>
+<li><a href="https://github.com/mit-han-lab/llm-awq"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">LLM-awq</font></font></a></li>
+<li><a href="https://github.com/vllm-project/vllm"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">法学硕士</font></font></a></li>
+<li><a href="https://github.com/microsoft/DeepSpeed-MII"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">DeepSpeed-MII</font></font></a></li>
+</ul>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">引文</font></font></h1><a id="user-content-citation" class="anchor" aria-label="永久链接：引文" href="#citation"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<div class="highlight highlight-text-bibtex notranslate position-relative overflow-auto" dir="auto"><pre><span class="pl-k">@misc</span>{<span class="pl-en">2023lmdeploy</span>,
+    <span class="pl-s">title</span>=<span class="pl-s"><span class="pl-pds">{</span>LMDeploy: A Toolkit for Compressing, Deploying, and Serving LLM<span class="pl-pds">}</span></span>,
+    <span class="pl-s">author</span>=<span class="pl-s"><span class="pl-pds">{</span>LMDeploy Contributors<span class="pl-pds">}</span></span>,
+    <span class="pl-s">howpublished</span> = <span class="pl-s"><span class="pl-pds">{</span>\url{https://github.com/InternLM/lmdeploy}<span class="pl-pds">}</span></span>,
+    <span class="pl-s">year</span>=<span class="pl-s"><span class="pl-pds">{</span>2023<span class="pl-pds">}</span></span>
+}</pre><div class="zeroclipboard-container">
+    <clipboard-copy aria-label="Copy" class="ClipboardButton btn btn-invisible js-clipboard-copy m-2 p-0 tooltipped-no-delay d-flex flex-justify-center flex-items-center" data-copy-feedback="Copied!" data-tooltip-direction="w" value="@misc{2023lmdeploy,
     title={LMDeploy: A Toolkit for Compressing, Deploying, and Serving LLM},
     author={LMDeploy Contributors},
     howpublished = {\url{https://github.com/InternLM/lmdeploy}},
     year={2023}
-}
-```
-
-# License
-
-This project is released under the [Apache 2.0 license](LICENSE).
+}" tabindex="0" role="button">
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-copy js-clipboard-copy-icon">
+    <path d="M0 6.75C0 5.784.784 5 1.75 5h1.5a.75.75 0 0 1 0 1.5h-1.5a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-1.5a.75.75 0 0 1 1.5 0v1.5A1.75 1.75 0 0 1 9.25 16h-7.5A1.75 1.75 0 0 1 0 14.25Z"></path><path d="M5 1.75C5 .784 5.784 0 6.75 0h7.5C15.216 0 16 .784 16 1.75v7.5A1.75 1.75 0 0 1 14.25 11h-7.5A1.75 1.75 0 0 1 5 9.25Zm1.75-.25a.25.25 0 0 0-.25.25v7.5c0 .138.112.25.25.25h7.5a.25.25 0 0 0 .25-.25v-7.5a.25.25 0 0 0-.25-.25Z"></path>
+</svg>
+      <svg aria-hidden="true" height="16" viewBox="0 0 16 16" version="1.1" width="16" data-view-component="true" class="octicon octicon-check js-clipboard-check-icon color-fg-success d-none">
+    <path d="M13.78 4.22a.75.75 0 0 1 0 1.06l-7.25 7.25a.75.75 0 0 1-1.06 0L2.22 9.28a.751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018L6 10.94l6.72-6.72a.75.75 0 0 1 1.06 0Z"></path>
+</svg>
+    </clipboard-copy>
+  </div></div>
+<div class="markdown-heading" dir="auto"><h1 tabindex="-1" class="heading-element" dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">执照</font></font></h1><a id="user-content-license" class="anchor" aria-label="永久链接：许可证" href="#license"><svg class="octicon octicon-link" viewBox="0 0 16 16" version="1.1" width="16" height="16" aria-hidden="true"><path d="m7.775 3.275 1.25-1.25a3.5 3.5 0 1 1 4.95 4.95l-2.5 2.5a3.5 3.5 0 0 1-4.95 0 .751.751 0 0 1 .018-1.042.751.751 0 0 1 1.042-.018 1.998 1.998 0 0 0 2.83 0l2.5-2.5a2.002 2.002 0 0 0-2.83-2.83l-1.25 1.25a.751.751 0 0 1-1.042-.018.751.751 0 0 1-.018-1.042Zm-4.69 9.64a1.998 1.998 0 0 0 2.83 0l1.25-1.25a.751.751 0 0 1 1.042.018.751.751 0 0 1 .018 1.042l-1.25 1.25a3.5 3.5 0 1 1-4.95-4.95l2.5-2.5a3.5 3.5 0 0 1 4.95 0 .751.751 0 0 1-.018 1.042.751.751 0 0 1-1.042.018 1.998 1.998 0 0 0-2.83 0l-2.5 2.5a1.998 1.998 0 0 0 0 2.83Z"></path></svg></a></div>
+<p dir="auto"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">该项目是在</font></font><a href="/InternLM/lmdeploy/blob/main/LICENSE"><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">Apache 2.0 许可证</font></font></a><font style="vertical-align: inherit;"><font style="vertical-align: inherit;">下发布的。</font></font></p>
+</article></div>
